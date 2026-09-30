@@ -1,6 +1,6 @@
 # Prompt Lab
 
-Chat-first AI prompt generator. Describe your vision, pick a model (Midjourney, Flux, SDXL, Veo, Kling, Sora, …), optionally attach a reference image/video, and get a copy-ready prompt engineered for that model.
+Chat-first AI prompt generator. Describe your vision, pick from an expanded image & video model catalog (Midjourney v6/v7, Flux family, SD 3.5, Firefly, Veo 2/3, Kling, Runway Gen-3/4, Sora, Pika, Luma, …), optionally attach a reference image/video, and get a copy-ready prompt engineered for that model.
 
 Built for **Derek Yigo** ([@Derick-UX-rbg](https://github.com/Derick-UX-rbg)).
 

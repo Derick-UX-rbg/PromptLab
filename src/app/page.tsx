@@ -12,7 +12,7 @@ const steps = [
   {
     icon: Sparkles,
     title: "Pick a model",
-    body: "Image or video — Midjourney, Flux, SDXL, Veo, Kling, Sora, and more. Syntax matches the target.",
+    body: "Image or video — Midjourney, Flux, SD 3.5, Firefly, Veo, Kling, Runway Gen-4, Sora, and more. Syntax matches the target.",
   },
   {
     icon: ImageIcon,
@@ -42,7 +42,7 @@ export default function HomePage() {
             </h1>
             <p className="mt-5 text-lg text-muted sm:text-xl">
               Prompt Lab is an AI agent that interviews your idea, then writes
-              production prompts tuned for Midjourney, Flux, video models, and more.
+              production prompts tuned for dozens of image and video models.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
               <Link
@@ -109,7 +109,7 @@ export default function HomePage() {
               Models we write for
             </h2>
             <p className="mx-auto mt-2 max-w-xl text-center text-muted">
-              Image and video targets — each with its own syntax rules baked into the agent.
+              Expanded image and video catalog — each with its own syntax rules baked into the agent.
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-2">
               {MODELS.map((m) => (

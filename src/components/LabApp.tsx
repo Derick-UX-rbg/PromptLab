@@ -76,7 +76,7 @@ async function videoFirstFrame(file: File): Promise<{ base64: string; mime: stri
 }
 
 export function LabApp() {
-  const [modelId, setModelId] = useState("midjourney");
+  const [modelId, setModelId] = useState("midjourney-v7");
   const [messages, setMessages] = useState<UiMessage[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
